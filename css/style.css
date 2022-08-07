@@ -1,0 +1,222 @@
+body {
+    background-color: #f0f0f0;
+}
+
+/*fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+.montserrat {
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+/*ust-mor*/
+.bg-ust img {
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: -9;
+}
+
+.btn-main {
+    background-color: #c784cb;
+}
+
+.welcome-band {
+    margin-top: 200px;
+}
+
+/*welcome-cards*/
+.btn-welcome {
+    background: linear-gradient(90deg, rgba(241, 130, 172, 1) 0%, rgba(186, 131, 209, 1) 100%);
+    border: none;
+}
+
+.cards {
+    margin-top: -100px;
+}
+
+.cards img {
+    width: 600px;
+}
+
+/*brands*/
+.brands {
+    margin-top: 200px;
+}
+
+.brands img {
+    width: 20%;
+}
+
+/*info section*/
+.read-more {
+    font-size: 18px;
+    background: linear-gradient(90deg, rgba(241, 130, 172, 1) 0%, rgba(186, 131, 209, 1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/*pricing*/
+#pricing {
+    margin-top: 100px;
+}
+
+#pricing h1 {
+    font-size: 40px;
+    border-bottom: 2px solid #9dd6fc;
+    width: 20%;
+}
+
+#pricing .card {
+    background-color: #bc83d0 !important;
+    border: none;
+}
+
+#pricing .card h4 {
+    font-size: 18px;
+}
+
+#pricing img {
+    margin-top: -70px;
+}
+
+#pricing button {
+    background-color: #9dd6fc;
+    border: none;
+}
+
+/*blogs*/
+#blogs {
+    margin-top: 100px;
+    margin-bottom: 400px;
+}
+
+#blogs h1 {
+    font-size: 40px;
+    border-bottom: 2px solid #9dd6fc;
+    width: 20%;
+}
+
+/*footer*/
+#footer {
+    background-color: #ed82ae;
+}
+
+#footer .elips {
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    margin-top: -180px;
+}
+
+#footer .phone {
+    width: 50%;
+    margin-top: -40%;
+    float: right;
+}
+
+/*login page*/
+#login .security {
+    padding: 10%;
+    width: 100%;
+}
+
+#login .bg-login {
+    background-color: #cc84c7;
+}
+
+#login .btn-login {
+    background: linear-gradient(90deg, rgba(172, 203, 234, 1) 0%, rgba(150, 0, 255, 1) 100%);
+    border: none;
+}
+
+#login .input-group input {
+    border: none;
+    border-radius: 0px 20px 20px 0px;
+}
+
+#login .input-group .input-group-text {
+    border: none;
+    border-radius: 20px 0px 0px 20px;
+}
+
+/*login footer*/
+#login-footer {
+    background-color: #accbea;
+}
+
+/*banner*/
+.banner {
+    background: linear-gradient(90deg, rgba(238, 130, 173, 1) 0%, rgba(199, 132, 203, 1) 100%);
+}
+
+.banner h1 {
+    padding: 70px;
+}
+
+/*bank account page*/
+#bankAccount {
+    margin-bottom: 250px;
+}
+
+/*products*/
+#products {
+    margin-top: 100px;
+    margin-bottom: 300px;
+}
+
+#products .card-body {
+    background-color: #ddd;
+}
+
+#products .card-body a {
+    float: right;
+    margin-top: 20px;
+}
+
+#products .card {
+    border: none;
+    margin-top: 30px;
+}
+
+/*owl carousel*/
+#product-detail {
+    margin-bottom: 300px;
+    margin-top: 100px;
+}
+
+/*product detail*/
+#product-detail ul {
+    list-style: none;
+    /* Remove default bullets */
+}
+#product-detail ul li{font-size: 32px;}
+#product-detail ul li span{font-size: 18px;}
+#product-detail ul li::before {
+    content: "\2022";
+    /* Add content: \2022 is the CSS Code/unicode for a bullet */
+    color: #c784cb;
+    /* Change the color */
+    font-weight: bold;
+    /* If you want it to be bold */
+    display: inline-block;
+    /* Needed to add space between the bullet and the text */
+    width: 1em;
+    /* Also needed for space (tweak if needed) */
+    margin-left: -1em;
+    /* Also needed for space (tweak if needed) */
+}
+
+#product-detail input{background-color: #d8d0d0;}
+#product-detail .formFile{
+    background-color: #d8d0d0;
+}
+
+#product-detail .product-desc .aciklama{background-color: #ddd;}
+#product-detail .product-desc .aciklama ul li{
+    font-size: 20px;
+    padding: 10px;
+}
+
+/*paying page*/
+#pay{margin-top: 100px; margin-bottom: 300px;}
